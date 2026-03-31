@@ -1,4 +1,4 @@
-**Table 9:.** Copula Shift ($d=50$): $\mathrm{ARL}_1$ (mean $\pm$ SE) at matched $\mathrm{ARL}_0 = 100$; smaller is better. Best per row is bolded.
+**Table 9.** Copula Shift ($d=50$): $\mathrm{ARL}_1$ (mean $\pm$ SE) at matched $\mathrm{ARL}_0 = 100$; smaller is better. Best per row is bolded.
 
 | $N$ | IDD (Ours) | Log-KDE | NEWMA | Scan-$B$ | F-CPD | Shewhart |
 | ---: | --- | --- | --- | --- | --- | --- |
