@@ -1,0 +1,9 @@
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+torch>=2.0
+POT>=0.9          # Python Optimal Transport (pot)
+scikit-learn>=1.3
+sentence-transformers>=2.2  # optional: only for embed_pca20 representation
+normflows>=1.7    # Conditional Normalizing Flows (for bary_mode="flow")
