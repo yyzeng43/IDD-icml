@@ -160,7 +160,7 @@ Phase II: all daily windows from the J&J EUA onward.
 
 ```bibtex
 @inproceedings{zeng2026idd,
-  title     = {IDD: Sequential Distribution Monitoring via Optimal Transport and Functional PCA},
+  title     = {Beyond Euclidean Summaries: Online Change Point Detection for Distribution-Valued Data},
   author = {Zeng, Yingyan and Huang, Yujing (Zipan) and Chen, Xiaoyu},
   booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
   year      = {2026},
