@@ -1,6 +1,10 @@
 # IDD: Information-Geometric Distribution Detection
 
-Code for the ICML submission *"IDD: Sequential Distribution Monitoring via Optimal Transport and Functional PCA"*.
+Code for the ICML accepted paper *"Beyond Euclidean Summaries: Online Change Point Detection for
+Distribution-Valued Data"*.
+
+Paper: https://arxiv.org/abs/2602.07252
+
 
 ---
 
@@ -62,7 +66,7 @@ install.packages("funcharts")
 
 ## Reproducing the Paper Results
 
-### 1. Continuous Streams (Fig. 1, Appendix J)
+### 1. Continuous Streams
 
 **Step 1 – Generate data** (or set `DIDO_DATA_ROOT` to an existing data folder).
 Generate each batch size you plan to run; outputs are stored as `continuous/n<N>/`:
@@ -93,7 +97,7 @@ python summary_figs.py
 
 ---
 
-### 2. Discrete Streams (Fig. 2)
+### 2. Discrete Streams 
 
 **Step 1 – Generate data**:
 ```bash
@@ -114,8 +118,7 @@ python tradeoff_discrete_v3.py
 
 ---
 
-### 3. Gaussian Translation Analysis (Table 1)
-
+### 3. Gaussian Translation Analysis
 **Step 1 – Generate data**:
 ```bash
 cd gaussian_translation/data_generation
@@ -132,7 +135,7 @@ python run_scripts_all.py
 
 ### 4. Case Study – Reddit COVID-vaccine Monitoring
 
-The dataset is `SummaryResults_Covid_All.csv` from the COVID-19 vaccine Reddit corpus.
+The dataset is `SummaryResults_Covid_All.csv` from the [COVID-19 vaccine Reddit corpus](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XJTBQM).
 Set the path via environment variable or `--csv` argument.
 
 **Step 1 – Preprocess weekly windows**:
@@ -152,21 +155,13 @@ Phase II: all daily windows from the J&J EUA onward.
 
 ---
 
-## Environment Variables
-
-| Variable | Description | Default |
-|---|---|---|
-| `DIDO_DATA_ROOT` | Root folder for all simulation data | `../data/` |
-| `DIDO_REDDIT_CSV` | Path to `SummaryResults_Covid_All.csv` | `case_study/data/SummaryResults_Covid_All.csv` |
-| `DIDO_REDDIT_DATADIR` | Working directory for case-study exports | `case_study/output/` |
-
----
 
 ## Citation
 
 ```bibtex
 @inproceedings{zeng2026idd,
   title     = {IDD: Sequential Distribution Monitoring via Optimal Transport and Functional PCA},
+  author = {Zeng, Yingyan and Huang, Yujing (Zipan) and Chen, Xiaoyu},
   booktitle = {Proceedings of the 43rd International Conference on Machine Learning},
   year      = {2026},
 }
