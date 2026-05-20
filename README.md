@@ -1,5 +1,4 @@
-# Beyond Euclidean Summaries: Online Change Point Detection for
-Distribution-Valued Data
+# Beyond Euclidean Summaries: Online Change Point Detection for Distribution-Valued Data
 
 Code for the ICML accepted paper *"Beyond Euclidean Summaries: Online Change Point Detection for
 Distribution-Valued Data"*.
