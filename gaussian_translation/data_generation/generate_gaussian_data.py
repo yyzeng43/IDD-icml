@@ -268,7 +268,7 @@ def visualize_gaussian_simulation(
 if __name__ == "__main__":
     from pathlib import Path
 
-    # data_save_path = r'C:\Users\zengyy\Research\DIDO_CC\Simulation\kde_comp'
+    # data_save_path = r'/path/to/output/dir'
     # out_dir = Path(data_save_path)
     # DIM = 2
 

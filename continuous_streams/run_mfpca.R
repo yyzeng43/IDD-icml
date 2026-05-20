@@ -1,4 +1,6 @@
-Sys.setenv(RETICULATE_PYTHON = "C:/Users/zengyy/Research/DIDO_CC/DIDO_CC/.venv/Scripts/python.exe")
+# To use a specific Python interpreter, set the RETICULATE_PYTHON environment
+# variable (e.g. export RETICULATE_PYTHON=/path/to/.venv/bin/python) before
+# running this script. If unset, reticulate auto-detects an available Python.
 
 
 suppressPackageStartupMessages({
