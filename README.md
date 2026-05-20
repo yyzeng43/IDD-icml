@@ -1,4 +1,5 @@
-# IDD: Information-Geometric Distribution Detection
+# Beyond Euclidean Summaries: Online Change Point Detection for
+Distribution-Valued Data
 
 Code for the ICML accepted paper *"Beyond Euclidean Summaries: Online Change Point Detection for
 Distribution-Valued Data"*.
