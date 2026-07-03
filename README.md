@@ -5,6 +5,7 @@ Distribution-Valued Data"*.
 
 Paper: https://arxiv.org/abs/2602.07252
 
+<img width="4608" height="3456" alt="icml2026_IDD_poster" src="https://github.com/user-attachments/assets/efbd60e0-860b-4921-8e71-d393c68ba37d" />
 
 ---
 
