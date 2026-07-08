@@ -4,6 +4,9 @@ Code for the ICML accepted paper *"Beyond Euclidean Summaries: Online Change Poi
 Distribution-Valued Data"*.
 
 Paper: https://arxiv.org/abs/2602.07252
+## Demo
+<img width="1127" height="525" alt="alarm_gif" src="https://github.com/user-attachments/assets/d1311883-4f50-4b2f-90b9-2a48d1244a9c" />
+
 
 <img width="4608" height="3456" alt="icml2026_IDD_poster" src="https://github.com/user-attachments/assets/efbd60e0-860b-4921-8e71-d393c68ba37d" />
 
